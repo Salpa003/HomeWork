@@ -26,7 +26,7 @@ public class StepTracker {
 
        System.out.println("Введите день 1-30");
         int day = scanner.nextInt();
-        if (day < 0 || day > 30){
+        if (day < 1 || day > 30){
             System.out.println("~ Неправильно введён день ~");
             return;
         }
